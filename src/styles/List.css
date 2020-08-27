@@ -1,0 +1,44 @@
+input {
+    text-align: center;
+    margin-top: 10px;
+    text-indent: 5px;
+    line-height: 30px;
+    max-width: 500px;
+    width: 80%;
+}
+
+ul {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 500px;
+    width: 80%;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+li {
+
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    padding-bottom: 5px;
+}
+
+.remove {
+    font-size: 18px;
+    padding: 2px;
+    color: grey;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.remove:hover {
+    background-color: grey;
+    color: white;
+}

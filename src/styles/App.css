@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to bottom right,yellow, green);
+  background-attachment: fixed;
+}
+
+.App {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+input {
+  border-radius: 5px;
+  border: grey 1px solid;
+}
+
+a {
+  text-decoration: none;
+}
